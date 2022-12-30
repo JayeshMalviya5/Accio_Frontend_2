@@ -146,7 +146,7 @@ function sortBygender(){
             arr.push(e);
         }
     })
-
+// 
     for(let i = 1;i<arr.length;i++){
         table_row[i].innerHTML = `<td>${arr[i-1].id}</td><td><img src="${arr[i-1].img_src}" alt="" height = 10px> ${arr[i-1].first_name} ${arr[i-1].last_name}</td><td>${arr[i-1].gender}</td><td>${arr[i-1].class}</td><td>${arr[i-1].marks}</td><td>${arr[i-1].passing}</td><td>${arr[i-1].email}</td>`
     } 
